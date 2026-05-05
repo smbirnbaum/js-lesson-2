@@ -14,3 +14,7 @@ function isValidPassword(password, username) {
     return true;
 }
 
+console.log(isValidPassword("hello123", "shawna"));
+console.log(isValidPassword("hi123", "shawna")); 
+console.log(isValidPassword("hello 123", "shawna")); 
+console.log(isValidPassword("shawna123", "shawna")); 
